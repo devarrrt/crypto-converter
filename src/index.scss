@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+body {
+  background-color: #474764;
+  font-family: "Raleway", sans-serif;
+}
+
+.appContaiter {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  width: 705px;
+  //   position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+
+  margin: 100px auto;
+padding: 40px;
+}
+
+.appTitle {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 27px;
+
+}
+
+
+.buttonsBuy{
+    background-color: #6020eae9;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    border: 0;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background-color: lighten($color: #6020ea, $amount: 5%);
+    }
+}
